@@ -1,0 +1,36 @@
+{
+  "name": "internProject",
+  "version": "1.0.0",
+  "description": "`cd prepme`\\\r `npm install`\\\r `npm start`",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.22.0",
+    "connect-multiparty": "^2.2.0",
+    "content-based-recommender": "^1.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "leaflet": "^1.7.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.25",
+    "nodemon": "^2.0.13",
+    "validator": "^13.1.1",
+    "web-push": "^3.4.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js --ignore client",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csc309-winter-2020/internProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csc309-winter-2020/internProject/issues"
+  },
+  "homepage": "https://github.com/csc309-winter-2020/internProject#readme"
+}
